@@ -8,7 +8,7 @@ const modalMainContainer = document.querySelector(".modal-container");
 const modalDeleteUserWindow = document.querySelector(".delete-user-modal");
 const modalEditeUserWindow = document.querySelector(".edit-user-modal");
 let usersDB = {};
-const endPointUrl ="{MoneyWizard}.firebaseio.com/";
+const endPointUrl ="{finance-1cb81}.firebaseio.com/";
 
 createNewUserButton.addEventListener("click", () => {
     let firstName = userFirstNameInput.value;
